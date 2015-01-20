@@ -1,0 +1,71 @@
+<style>
+.heroShot {
+  overflow: hidden;
+  max-height: 400px;
+}
+  
+.heroShot img {
+	width: 100%;
+}
+
+.heroShot-mobile {
+  overflow: hidden;
+  max-height: 600px;
+}
+  
+.heroShot-mobile img {
+	width: 100%;
+}
+  
+.heroHeading {
+	margin-top: -250px;
+}
+
+.heroHeading h1 {
+  color: #FFF;
+  text-align: left;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.75),0 0 	20px rgba(0, 0, 0, 0.75);
+  font-weight:bold;
+}
+
+@media (max-width: 992px) { 
+.heroHeading {margin-top: -200px;}
+}
+  
+@media (max-width: 768px) { 
+.heroHeading {margin-top: 0px;} 
+.heroHeading h1 {
+  color: #0899cc;
+  text-shadow: 0 0 0px rgba(0, 0, 0, 0.0),0 0 0px rgba(0, 0, 0, 0.0);
+
+}
+.hidden-phone{ display:none;}
+.heroShot img {margin-top: 60px;}
+}
+
+</style>
+
+
+
+
+
+
+
+<div class="heroShot">
+  		<img src="//mvcodeclub.s3.amazonaws.com/comfy/cms/files/files/000/000/154/original/heroShot-girlcoder2.jpg" />
+</div>
+
+
+<div class="heroShot-mobile">
+		<img src="//mvcodeclub.s3.amazonaws.com/comfy/cms/files/files/000/000/162/original/IMG-heroTemplate-Mobile.jpg" />
+</div>
+
+
+
+<div class="container">
+      <div class="heroHeading col-md-4">
+          <h1>
+            Learn while doing this summer at MV&nbsp;Code&nbsp;Club.
+          </h1>
+ 		</div>
+</div>
